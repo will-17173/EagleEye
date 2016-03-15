@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>IconFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="iconfont.css">
+</head>
+<body>
+    <div class="main">
+        <h1>IconFont 图标</h1>
+        <ul class="icon_lists clear">
+            
+                <li>
+                <i class="icon iconfont">&#xe735;</i>
+                    <div class="name">people_fill</div>
+                    <div class="code">&amp;#xe735;</div>
+                    <div class="fontclass">.peoplefill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe73e;</i>
+                    <div class="name">command_fill</div>
+                    <div class="code">&amp;#xe73e;</div>
+                    <div class="fontclass">.commandfill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe751;</i>
+                    <div class="name">tag_fill</div>
+                    <div class="code">&amp;#xe751;</div>
+                    <div class="fontclass">.tagfill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe72c;</i>
+                    <div class="name">pic_fill</div>
+                    <div class="code">&amp;#xe72c;</div>
+                    <div class="fontclass">.picfill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe716;</i>
+                    <div class="name">clothes_fill</div>
+                    <div class="code">&amp;#xe716;</div>
+                    <div class="fontclass">.clothesfill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe65e;</i>
+                    <div class="name">time_fill</div>
+                    <div class="code">&amp;#xe65e;</div>
+                    <div class="fontclass">.timefill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6e3;</i>
+                    <div class="name">appreciate_fill</div>
+                    <div class="code">&amp;#xe6e3;</div>
+                    <div class="fontclass">.appreciatefill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe73a;</i>
+                    <div class="name">repair_fill</div>
+                    <div class="code">&amp;#xe73a;</div>
+                    <div class="fontclass">.repairfill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe760;</i>
+                    <div class="name">write_fill</div>
+                    <div class="code">&amp;#xe760;</div>
+                    <div class="fontclass">.writefill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe761;</i>
+                    <div class="name">write</div>
+                    <div class="code">&amp;#xe761;</div>
+                    <div class="fontclass">.write</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6bb;</i>
+                    <div class="name">home_fill</div>
+                    <div class="code">&amp;#xe6bb;</div>
+                    <div class="fontclass">.homefill</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe6b8;</i>
+                    <div class="name">home</div>
+                    <div class="code">&amp;#xe6b8;</div>
+                    <div class="fontclass">.home</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe736;</i>
+                    <div class="name">people</div>
+                    <div class="code">&amp;#xe736;</div>
+                    <div class="fontclass">.people</div>
+                </li>
+            
+                <li>
+                <i class="icon iconfont">&#xe738;</i>
+                    <div class="name">repair</div>
+                    <div class="code">&amp;#xe738;</div>
+                    <div class="fontclass">.repair</div>
+                </li>
+            
+        </ul>
+
+
+        <div class="helps">
+            第一步：使用font-face声明字体
+            <pre>
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+</pre>
+第二步：定义使用iconfont的样式
+            <pre>
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+</pre>
+第三步：挑选相应图标并获取字体编码，应用于页面
+<pre>
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+</pre>
+        </div>
+
+    </div>
+</body>
+</html>
