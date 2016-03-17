@@ -9,53 +9,39 @@
 	<title>EagleEye</title>
 <!-- 	<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css"> -->
-
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">
     <link rel="stylesheet" href="iconfont/iconfont.css">
     <link rel="stylesheet" href="css/style.css">
-    <style type="text/css">
-      .topbar.bar .icon{ color: #fff; font-size: 1.1rem; line-height: 1.1rem; padding: .4rem .1rem;}
-      .aduit-head{ background: #fff; height: 2rem; border-bottom: 1px solid #dadada; line-height: 2rem; padding: 0 1rem;}
-      .aduit-form{ padding: .2rem 1rem 1rem;}
-      .aduit-form .form-group{ padding: .3rem 0;}
-      .aduit-form input{ width: 90%; border: 1px solid #dadada; border-radius: 5px; height: 35px; line-height: 35px; padding: 0 5px; font-size: 14px;}
-      .aduit-form .input-p-date,
-      .aduit-form .input-position{ width: 80%;}
-      .button.button-fill.btn-aduit{ background: #2fa5e1; height: 45px; line-height: 45px; font-size: 18px; margin-top: 10px;}
-      .button.button-fill.btn-aduit:active{ background: #289ad4; color: #fff;}
-      .p-date-wrap{ display: inline-block; background: #c8c8c8; border-radius: 5px; width: 32px; height: 32px; text-align: center; margin-right: 10px;}
-      .p-date-wrap .iconfont{ color: #fff; font-size: 16px; line-height: 32px;}
-    </style>
 </head>
 <body>
 <div class="page">
   <header class="bar bar-nav topbar">
-    <a class="icon iconfont pull-left" href="#">&#xe609;</a>
+    <a class="icon iconfont pull-left icon-back" href="#"></a>
     <h1 class="title">审计</h1>
-    <a class="pull-right" href="#">完成</a>
+    <a class="pull-right t-done" href="#">完成</a>
   </header>
 <div class="bar bar-header-secondary c-bar">
 
-  <h2 class="title"><i class="iconfont">&#xe615;</i>0：15：53</h2>
-  <a href="#" class="pull-right">导出</a>
+  <h2 class="title"><i class="iconfont icon-countdown"></i> 0 : 15 : 53</h2>
+  <a href="#" class="pull-right export">导出</a>
 </div>
 
   <nav class="bar bar-tab">
     <a class="tab-item" href="#">
-      <i class="icon iconfont">&#xe60a;</i>
+      <i class="icon iconfont icon-home"></i>
       <span class="tab-label">首页</span>
     </a>
     <a class="tab-item active" href="#">
-      <i class="icon iconfont">&#xe622;</i>
+      <i class="icon iconfont icon-writefill"></i>
       <span class="tab-label">审计</span>
     </a>
     <a class="tab-item" href="#">
-      <i class="icon iconfont">&#xe612;</i>
+      <i class="icon iconfont icon-shezhi2"></i>
       <span class="tab-label">设置</span>
     </a>
     <a class="tab-item" href="#">
-      <i class="icon iconfont">&#xe61a;</i>
+      <i class="icon iconfont icon-people"></i>
       <span class="tab-label">个人</span>
     </a>
   </nav>
@@ -63,51 +49,51 @@
   <div class="content">
     <div class="aduit-head">
       第1部分/共2部份
-      <a href="#" class="iconfont pull-right">&#xe607;</a>
+      <a href="#" class="iconfont pull-right icon-unfold"></a>
     </div>
     <form class="aduit-form">
       <div class="form-group">
         <label>审计标题</label>
         <div class="clearfix">
           <input type="text" class="form-control">
-          <a class="iconfont pull-right">&#xe608;</a>
+          <a class="iconfont pull-right icon-more"></a>
         </div>
       </div>
       <div class="form-group">
         <label>客户端/站点</label>
         <div class="clearfix">
           <input type="text" class="form-control">
-          <a class="iconfont pull-right">&#xe608;</a>
+          <a class="iconfont pull-right icon-more"></a>
         </div>
       </div>
       <div class="form-group">
         <label>生产日期</label>
         <div class="clearfix">
-          <input type="text" class="form-control input-p-date">
-          <a class="iconfont pull-right">&#xe608;</a>
-          <span class="p-date-wrap pull-right"><i class="iconfont">&#xe62a;</i></span>
+          <input type="text" class="form-control input-p-date" id="p_calendar">
+          <a class="iconfont pull-right icon-more"></a>
+          <span class="p-date-wrap pull-right"><i class="iconfont icon-riqi"></i></span>
         </div>
       </div>
       <div class="form-group">
         <label>审计人</label>
         <div class="clearfix">
           <input type="text" class="form-control">
-          <a class="iconfont pull-right">&#xe608;</a>
+          <a class="iconfont pull-right icon-more"></a>
         </div>
       </div>
       <div class="form-group">
         <label>当前位置</label>
         <div class="clearfix">
           <input type="text" class="form-control input-position">
-          <a class="iconfont pull-right">&#xe608;</a>
-          <span class="p-date-wrap pull-right"><i class="iconfont">&#xe62c;</i></span>
+          <a class="iconfont pull-right icon-more"></a>
+          <span class="p-date-wrap pull-right"><i class="iconfont icon-iconfontlocationfill"></i></span>
         </div>
       </div>
       <div class="form-group">
         <label>个人名称</label>
         <div class="clearfix">
           <input type="text" class="form-control">
-          <a class="iconfont pull-right">&#xe608;</a>
+          <a class="iconfont pull-right icon-more"></a>
           
         </div>
       </div> 
@@ -117,12 +103,14 @@
     </form>
   </div>
 </div>
-<!-- <script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
 <script src="//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js" charset="utf-8"></script>
-<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js" charset="utf-8"></script> --> 
-<script src="//g.alicdn.com/sj/lib/zepto/zepto.js" charset="utf-8"></script>
-<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm.js" charset="utf-8"></script>
-<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.js" charset="utf-8"></script>
-
+<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js" charset="utf-8"></script> 
+<script>
+  $("#p_calendar").calendar();
+  $('.p-date-wrap').click(function(){
+    $("#p_calendar").click();
+  })
+</script>
 </body>
 </html>
