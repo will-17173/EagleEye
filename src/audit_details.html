@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>EagleEye</title>
+<!-- 	<link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css"> -->
+
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.css">
+    <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      .topbar.bar .icon{ color: #fff; font-size: 1.1rem; line-height: 1.1rem; padding: .4rem .1rem;}
+      .aduit-head{ background: #fff; height: 2rem; border-bottom: 1px solid #dadada; line-height: 2rem; padding: 0 1rem;}
+      .aduit-form{ padding: .2rem 1rem 1rem;}
+      .aduit-form .form-group{ padding: .3rem 0;}
+      .aduit-form input{ width: 90%; border: 1px solid #dadada; border-radius: 5px; height: 35px; line-height: 35px; padding: 0 5px; font-size: 14px;}
+      .aduit-form .input-p-date,
+      .aduit-form .input-position{ width: 80%;}
+      .button.button-fill.btn-aduit{ background: #2fa5e1; height: 45px; line-height: 45px; font-size: 18px; margin-top: 10px;}
+      .button.button-fill.btn-aduit:active{ background: #289ad4; color: #fff;}
+      .p-date-wrap{ display: inline-block; background: #c8c8c8; border-radius: 5px; width: 32px; height: 32px; text-align: center; margin-right: 10px;}
+      .p-date-wrap .iconfont{ color: #fff; font-size: 16px; line-height: 32px;}
+    </style>
+</head>
+<body>
+<div class="page">
+  <header class="bar bar-nav topbar">
+    <a class="icon iconfont pull-left" href="#">&#xe609;</a>
+    <h1 class="title">审计</h1>
+    <a class="pull-right" href="#">完成</a>
+  </header>
+<div class="bar bar-header-secondary c-bar">
+
+  <h2 class="title"><i class="iconfont">&#xe615;</i>0：15：53</h2>
+  <a href="#" class="pull-right">导出</a>
+</div>
+
+  <nav class="bar bar-tab">
+    <a class="tab-item" href="#">
+      <i class="icon iconfont">&#xe60a;</i>
+      <span class="tab-label">首页</span>
+    </a>
+    <a class="tab-item active" href="#">
+      <i class="icon iconfont">&#xe622;</i>
+      <span class="tab-label">审计</span>
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon iconfont">&#xe612;</i>
+      <span class="tab-label">设置</span>
+    </a>
+    <a class="tab-item" href="#">
+      <i class="icon iconfont">&#xe61a;</i>
+      <span class="tab-label">个人</span>
+    </a>
+  </nav>
+
+  <div class="content">
+    <div class="aduit-head">
+      第1部分/共2部份
+      <a href="#" class="iconfont pull-right">&#xe607;</a>
+    </div>
+    <form class="aduit-form">
+      <div class="form-group">
+        <label>审计标题</label>
+        <div class="clearfix">
+          <input type="text" class="form-control">
+          <a class="iconfont pull-right">&#xe608;</a>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>客户端/站点</label>
+        <div class="clearfix">
+          <input type="text" class="form-control">
+          <a class="iconfont pull-right">&#xe608;</a>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>生产日期</label>
+        <div class="clearfix">
+          <input type="text" class="form-control input-p-date">
+          <a class="iconfont pull-right">&#xe608;</a>
+          <span class="p-date-wrap pull-right"><i class="iconfont">&#xe62a;</i></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>审计人</label>
+        <div class="clearfix">
+          <input type="text" class="form-control">
+          <a class="iconfont pull-right">&#xe608;</a>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>当前位置</label>
+        <div class="clearfix">
+          <input type="text" class="form-control input-position">
+          <a class="iconfont pull-right">&#xe608;</a>
+          <span class="p-date-wrap pull-right"><i class="iconfont">&#xe62c;</i></span>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>个人名称</label>
+        <div class="clearfix">
+          <input type="text" class="form-control">
+          <a class="iconfont pull-right">&#xe608;</a>
+          
+        </div>
+      </div> 
+      <div class="form-group">
+        <a class="button button-fill btn-aduit" href="javascript:;">开始审计</a>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- <script src="//g.alicdn.com/sj/lib/zepto/zepto.min.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js" charset="utf-8"></script> --> 
+<script src="//g.alicdn.com/sj/lib/zepto/zepto.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm.js" charset="utf-8"></script>
+<script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.js" charset="utf-8"></script>
+
+</body>
+</html>
