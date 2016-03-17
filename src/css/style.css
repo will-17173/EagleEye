@@ -12,9 +12,9 @@
 .login-form .list-block .item-title.label { width: 30px; color: #fff; }
 .login-form .list-block .item-title.label .iconfont { font-size: 22px; }
 .form-actions { font-size: 14px; padding: 1rem 0 2.5rem; }
-.login-form::-moz-placeholder { color: #fff; font-size: 14px; }
-.login-form::-webkit-input-placeholder { color: #fff; font-size: 14px; padding-top: 3px;}
-.login-form:-ms-input-placeholder { color: #fff; font-size: 14px; }
+.login-form ::-moz-placeholder { color: #fff;}
+.login-form ::-webkit-input-placeholder { color: #fff;}
+.login-form ::-ms-input-placeholder { color: #fff; }
 .login-form input { color: #fff !important; padding: 0 !important; }
 .btn-login { background: #fff !important; color: #266995 !important; padding: 0; height: 35px; line-height: 35px !important; }
 
