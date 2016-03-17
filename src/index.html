@@ -14,19 +14,6 @@
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.css">
     <link rel="stylesheet" href="iconfont/iconfont.css">
     <link rel="stylesheet" href="css/style.css">
-    <style type="text/css">
-      .topbar{ background: #222325;}
-      .topbar h1.title{ color: #fff;}
-      .topbar:after{ height: 0 !important;}
-      .slider{ height: 12.5rem;}
-      .swiper-slide img{ width: 100%;}
-      .bar-notice{ background: #fff; height: 2.2rem; padding: .3rem 1rem; font-size: 18px;}
-      .bar-notice .iconfont{ font-size: 22px;}
-      .menu-item{ background: #2fa5e1; width: 100%; height: 100%; color: #fff; display: block;}
-      .row .col-33{ width: 33.33333%; margin-left: 0;}
-      .home-menu .row:nth-of-type(1) .menu-item{ border-bottom: 1px solid #3fabe1;}
-      .home-menu .row .menu-item:nth-of-type(-n+2){ border-right: 1px solid #3fabe1;}
-    </style>
 </head>
 <body>
 <div class="page">
@@ -54,11 +41,20 @@
   <div class="content">
     <div class="content">
       <!-- Slider -->
-      <div class="swiper-container slider" data-space-between='10'>
+      <div class="swiper-container slider">
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt=""></div>
+          <div class="swiper-slide">
+            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1n3rZHFXXXXX9XFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+            <div class="desc">EHS系统导入培训课程</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i4/TB10rkPGVXXXXXGapXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+            <div class="desc">EHS系统导入培训课程</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="//gqianniu.alicdn.com/bao/uploaded/i4//tfscom/i1/TB1kQI3HpXXXXbSXFXXXXXXXXXX_!!0-item_pic.jpg_320x320q60.jpg" alt="">
+            <div class="desc">EHS系统导入培训课程</div>
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -70,26 +66,39 @@
       <div class="row">
         <div class="col-33">
           <a class="menu-item" href="#">
-            <i class="iconfont">&#xe623;</i>
+            <i class="iconfont">&#xe622;</i>
             <span>审计任务</span>
           </a>
         </div>
         <div class="col-33">
-          <a class="menu-item" href="#"></a>
+          <a class="menu-item" href="#">
+            <i class="iconfont">&#xe634;</i>
+            <span>通知公告</span>
+          </a>
         </div>
         <div class="col-33">
-          <a class="menu-item" href="#"></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-33">
-          <a class="menu-item" href="#"></a>
+          <a class="menu-item" href="#">
+            <i class="iconfont">&#xe638;</i>
+            <span>数据分析</span>
+          </a>
         </div>
         <div class="col-33">
-          <a class="menu-item" href="#"></a>
+          <a class="menu-item" href="#">
+            <i class="iconfont">&#xe61f;</i>
+            <span>不符合项</span>
+          </a>
         </div>
         <div class="col-33">
-          <a class="menu-item" href="#"></a>
+          <a class="menu-item" href="#">
+            <i class="iconfont">&#xe62a;</i>
+            <span>计划提醒</span>
+          </a>
+        </div>
+        <div class="col-33">
+          <a class="menu-item" href="#">
+            <i class="iconfont">&#xe600;</i>
+            <span>更多设置</span>
+          </a>
         </div>
       </div>
     </div>
@@ -105,9 +114,8 @@
 <script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.js" charset="utf-8"></script>
 <script>
   $.init();
-  var h = $(window).height() - $('.bar-tab').height() - $('.bar-notice').height() - $('.slider').height() - $('.topbar').height();
-  $('.menu-item').height(h / 2);
-
+  var h = $(window).height() - $('.bar-tab').height() - $('.bar-notice').height() - $('.menu-item').height() * 2 - $('.topbar').height();
+  $('.slider').height(h);
 </script>
 </body>
 </html>

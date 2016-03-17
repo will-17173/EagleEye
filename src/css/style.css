@@ -1,3 +1,4 @@
+/* 登录 */
 .page-login { background: #035c89; font-size: 14px; }
 .login-brand { height: 50%; background: url(../images/bg_login_brand.png) center bottom no-repeat #fff; background-size: 100%; text-align: center; position: relative; }
 .brand-logo { position: absolute; width: 7rem; height: 7rem; background: url(../images/eagle_eye_logo.png) center center no-repeat #fff; top: 50%; left: 50%; margin-top: -3.5rem; margin-left: -3.5rem; background-size: 100%; }
@@ -16,3 +17,29 @@
 .login-form:-ms-input-placeholder { color: #fff; font-size: 14px; }
 .login-form input { color: #fff !important; padding: 0 !important; }
 .btn-login { background: #fff !important; color: #266995 !important; padding: 0; height: 35px; line-height: 35px !important; }
+
+
+/* 首页 */
+.home-menu .row{ margin-left: 0;}
+.topbar{ background: #222325;}
+.topbar h1.title{ color: #fff;}
+.topbar:after{ height: 0 !important;}
+.slider{ padding: 0;}
+.swiper-slide img{ width: 100%;}
+.swiper-slide .desc{ width: 100%; position: absolute; bottom:0; height: 40px; line-height: 40px; color: #fff; font-size: 18px; background: rgba(0,0,0,.5); padding: 0 .7rem;}
+.slider .swiper-pagination{ position: absolute; bottom: .3rem; right: .5rem; left: auto; width: auto;}
+.slider .swiper-pagination-bullet{ background: #fdcf00; width: .7rem; height: .7rem; opacity: 1;}
+.slider .swiper-pagination-bullet-active{ background: #fff;}
+.bar-notice{ background: #fff; height: 2.2rem; padding: .3rem .7rem; font-size: 18px;}
+.bar-notice .iconfont{ font-size: 22px;}
+.menu-item{ background: #2fa5e1; width: 100%; height: 6rem; color: #fff; display: block; text-align: center; padding-top: .9rem;}
+.menu-item:active{ background: #2386b9; color: #fff;}
+.menu-item .iconfont{ font-size: 1.8rem;}
+.menu-item span{ display: block;}
+@media only screen and (max-width: 320px) {
+  .menu-item {height: 5rem;padding-top: .7rem;}
+  .menu-item .iconfont{ font-size: 1.5rem;}
+}
+.home-menu .row .col-33{ width: 33.33333%; margin-left: 0;}
+.home-menu .row:nth-of-type(1) .menu-item{ border-bottom: 1px solid #41ace2;}
+.home-menu .row .menu-item:nth-of-type(-n+2){ border-right: 1px solid #41ace2;}
