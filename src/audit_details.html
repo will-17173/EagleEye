@@ -23,7 +23,7 @@
   </header>
 <div class="bar bar-header-secondary c-bar">
 
-  <h2 class="title"><i class="iconfont icon-countdown"></i> 0 : 15 : 53</h2>
+  <h2 class="title"><i class="iconfont icon-countdown"></i> <span>00 : 00 : 00</span></h2>
   <a href="#" class="pull-right export">导出</a>
 </div>
 
@@ -107,10 +107,17 @@
 <script src="//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js" charset="utf-8"></script>
 <script src="//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js" charset="utf-8"></script> 
 <script>
-  $("#p_calendar").calendar();
-  $('.p-date-wrap').click(function(){
-    $("#p_calendar").click();
-  })
+  function formatSeconds(totalSec){
+    var hours = parseInt(totalSec / 3600, 10);
+    var minutes = parseInt(totalSec / 60, 10) % 60;
+    var seconds = totalSec % 60;
+    return ((hours > 9 ? hours : ('0' + hours)) + ' : ' + (minutes > 9 ? minutes : ('0' + minutes)) + ' : ' + (seconds > 9 ? seconds : ('0' + seconds)));
+  }
+  var timePassed = 0;
+  var auditTimeInterval = setInterval(function(){
+    timePassed++;
+    $('.c-bar .title span').text(formatSeconds(timePassed));
+  }, 1000)
 </script>
 </body>
 </html>

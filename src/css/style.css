@@ -79,7 +79,7 @@
 .p-date-wrap .iconfont{ color: #fff; font-size: 16px; line-height: 35px;}
 .t-done{ line-height: 2.2rem; color: #fff;}
 .c-bar{ background: #2fa5e1;}
-.c-bar .title{ color: #fff;}
+.c-bar .title{ color: #fff; font-size: 18px;}
 .c-bar .iconfont{ font-size: 22px;}
 .c-bar .export{ color: #fff; line-height: 2.2rem;}
 @media only screen and (max-width: 320px){
