@@ -1,4 +1,4 @@
-/* 登录 */
+ 登录 */
 .page-login { background: #035c89; font-size: 14px; }
 .login-brand { height: 50%; background: url(../images/bg_login_brand.png) center bottom no-repeat #fff; background-size: 100%; text-align: center; position: relative; }
 .brand-logo { position: absolute; width: 7rem; height: 7rem; background: url(../images/eagle_eye_logo.png) center center no-repeat #fff; top: 50%; left: 50%; margin-top: -3.5rem; margin-left: -3.5rem; background-size: 100%; }
@@ -87,3 +87,22 @@
 .aduit-form .input-p-date,
 .aduit-form .input-position{ width: 73%;}
 }
+
+
+/* 审计 */
+.s-bar-audit{ height: 2.2rem; color: #fff; text-align: center; line-height: 2.2rem; background: #2fa5e1; font-size: 18px;}
+.audit-title{ border-bottom: 1px solid #dadada; height: 2rem; line-height: 2rem; background: #fff; padding: 0 .5rem; font-weight: bold;}
+.audit-title .iconfont{ color: #dadada; font-size: 1.2rem; font-weight: normal;}
+.audit-section{}
+.audit-section p{ margin: 0 0 .5rem;}
+.audit-section ul{ padding: .5rem .5rem 0; margin: 0; list-style: none;}
+.audit-section li{ padding-bottom: 1rem;}
+.audit-section .button.button-fill{ height: 1.8rem; line-height: 1.8rem; background: #868686; font-size: 16px;}
+.audit-section .btn-yes.active{ background: #73e012;}
+.audit-section .btn-no.active{ background: #dc1111;}
+.audit-section .btn-na.active{ background: #2fa5e1;}
+.upload-img{ margin-top: 15px; display: none; position: relative;}
+.upload-img .p-icon-wrap{ margin-right: 0;}
+.upload-img .p-icon-wrap .iconfont{ font-size: 20px;}
+.upload-img .file-input{ padding: 0 5px; width: 85%; width: calc(100% - 45px); height: 35px; line-height: 35px; border: 1px solid #dadada; border-radius: 5px;}
+.upload-img .file{ position: absolute; top: 0; left: 0; right: 0; height: 35px; background: #fff; width: 100%; opacity: 0;}
