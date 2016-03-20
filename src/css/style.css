@@ -1,5 +1,5 @@
- 登录 */
-.page-login { background: #035c89; font-size: 14px; }
+ /*登录*/
+.page.page-login { background: #035c89 !important; font-size: 14px; }
 .login-brand { height: 50%; background: url(../images/bg_login_brand.png) center bottom no-repeat #fff; background-size: 100%; text-align: center; position: relative; }
 .brand-logo { position: absolute; width: 7rem; height: 7rem; background: url(../images/eagle_eye_logo.png) center center no-repeat #fff; top: 50%; left: 50%; margin-top: -3.5rem; margin-left: -3.5rem; background-size: 100%; }
 .login-form { color: #fff; }
