@@ -75,8 +75,9 @@
 .aduit-form .icon-more{ color: #c8c8c8; font-size: 22px; font-weight: bold;}
 .button.button-fill.btn-aduit{ background: #2fa5e1; height: 45px; line-height: 45px; font-size: 18px; margin-top: 10px;}
 .button.button-fill.btn-aduit:active{ background: #289ad4; color: #fff;}
-.p-date-wrap{ display: inline-block; background: #c8c8c8; border-radius: 5px; width: 35px; height: 35px; text-align: center; margin-right: 10px;}
-.p-date-wrap .iconfont{ color: #fff; font-size: 16px; line-height: 35px;}
+.p-icon-wrap{ display: inline-block; background: #c8c8c8; border-radius: 5px; width: 35px; height: 35px; text-align: center; margin-right: 10px;}
+.p-icon-wrap.active{ background: #2fa5e1;}
+.p-icon-wrap .iconfont{ color: #fff; font-size: 16px; line-height: 35px;}
 .t-done{ line-height: 2.2rem; color: #fff;}
 .c-bar{ background: #2fa5e1;}
 .c-bar .title{ color: #fff; font-size: 18px;}
