@@ -84,8 +84,8 @@
 .c-bar .iconfont{ font-size: 22px;}
 .c-bar .export{ color: #fff; line-height: 2.2rem;}
 @media only screen and (max-width: 320px){
-.aduit-form .input-p-date,
-.aduit-form .input-position{ width: 73%;}
+	.aduit-form .input-p-date,
+	.aduit-form .input-position{ width: 73%;}
 }
 
 
@@ -104,5 +104,15 @@
 .upload-img{ margin-top: 15px; display: none; position: relative;}
 .upload-img .p-icon-wrap{ margin-right: 0;}
 .upload-img .p-icon-wrap .iconfont{ font-size: 20px;}
-.upload-img .file-input{ padding: 0 5px; width: 85%; width: calc(100% - 45px); height: 35px; line-height: 35px; border: 1px solid #dadada; border-radius: 5px;}
-.upload-img .file{ position: absolute; top: 0; left: 0; right: 0; height: 35px; background: #fff; width: 100%; opacity: 0;}
+.upload-img .file-input{ padding: 0 5px; width: 100%;  height: 35px; line-height: 35px; border: 1px solid #dadada; border-radius: 5px;}
+.upload-img .file{ position: absolute; top: 0; left: 0; right: 0; height: 3.8rem; background: #fff; width: 100%; opacity: 0; z-index: 10;}
+.add-pic{ width: 100%; border: 1px solid #dadada; background: #fff; text-align: center; color: #ddd; height: 3.8rem; line-height: 3.8rem;}
+.add-pic .iconfont{ font-size: 30px !important;}
+.row.pic-row{ margin-top: 8px;}
+.row.pic-row .col-25{ position: relative;}
+.row.pic-row .col-25 .del-pic{ display: none; color: #aaa; position: absolute; top: 1px; right: 1px; width: 22px; height: 22px; background: #eee; text-align: center; line-height: 22px; z-index: 20;}
+
+@media only screen and (max-width: 320px){
+	.add-pic{height: 3.2rem; line-height: 3.2rem;}
+	.upload-img .file{ height: 3.2rem;}
+}
