@@ -23,7 +23,7 @@
 
 /* 首页 */
 .home-menu .row{ margin-left: 0;}
-.home-menu .num{ padding: 0 7px; height: 22px; border-radius: 10px; background: #f00; color: #fff; text-align: center; line-height: 22px; position: absolute; font-size: 14px; font-style: normal; top: 26px; left: 78px;}
+.home-menu .num{ padding: 0 7px; height: 22px; border-radius: 10px; background: #f00; color: #fff; text-align: center; line-height: 22px; position: absolute; font-size: 14px; font-style: normal; top: 1.2rem; left: 50%; margin-left: .6rem;}
 .topbar{ background: #222325;}
 .topbar h1.title{ color: #fff;}
 .topbar:after{ height: 0 !important;}
@@ -117,4 +117,5 @@
 @media only screen and (max-width: 320px){
 	.add-pic{height: 3.2rem; line-height: 3.2rem;}
 	.upload-img .file{ height: 3.2rem;}
+	.home-menu .num{ top: .8rem;}
 }
