@@ -23,6 +23,7 @@
 
 /* 首页 */
 .home-menu .row{ margin-left: 0;}
+.home-menu .num{ padding: 0 7px; height: 22px; border-radius: 10px; background: #f00; color: #fff; text-align: center; line-height: 22px; position: absolute; font-size: 14px; font-style: normal; top: 26px; left: 78px;}
 .topbar{ background: #222325;}
 .topbar h1.title{ color: #fff;}
 .topbar:after{ height: 0 !important;}
@@ -34,7 +35,7 @@
 .slider .swiper-pagination-bullet-active{ background: #fff;}
 .bar-notice{ background: #fff; height: 2.2rem; padding: .3rem .7rem; font-size: 18px;}
 .bar-notice .iconfont{ font-size: 22px;}
-.menu-item{ background: #2fa5e1; width: 100%; height: 6rem; color: #fff; display: block; text-align: center; padding-top: .9rem;}
+.menu-item{ background: #2fa5e1; width: 100%; height: 6rem; color: #fff; display: block; text-align: center; padding-top: .9rem; position: relative;}
 .menu-item:active{ background: #2386b9; color: #fff;}
 .menu-item .iconfont{ font-size: 1.8rem;}
 .menu-item span{ display: block;}
